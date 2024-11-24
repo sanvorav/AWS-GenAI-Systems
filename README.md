@@ -1,1 +1,1 @@
-# AWS-GenAI-Systems-
+# AWS GenAI Systems
