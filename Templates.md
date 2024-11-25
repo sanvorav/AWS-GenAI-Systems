@@ -1,3 +1,7 @@
+# Templates
+
+## Model Data Lineage
+
 ### 1. Data Lineage Form Template
 
 **Data Lineage Form**
@@ -48,3 +52,62 @@
 | **Model Fairness**        | Assessment of the model's fairness and any bias mitigation strategies.      | `Fairness metrics, Bias mitigation`  |
 | **Model Lineage Diagram** | Visual representation of the model's development and deployment process.    | `Link to Diagram`                    |
 
+---
+
+## Data Quality, Privacy, Access, and Integrity
+
+### 1. Data Quality Form Template
+
+**Data Quality Form**
+
+| Field Name                | Description                                                                 | Placeholder Example                  |
+|---------------------------|-----------------------------------------------------------------------------|--------------------------------------|
+| **Data Source**           | The origin of the data (e.g., database, API, file).                         | `Database: MySQL, API: OpenWeather`  |
+| **Data Collection Date**  | The date when the data was collected.                                       | `YYYY-MM-DD`                         |
+| **Data Completeness**     | Percentage of missing values in the dataset.                                | `5% missing values`                  |
+| **Data Consistency**      | Checks for consistency within the dataset (e.g., format, range).            | `All dates in YYYY-MM-DD format`     |
+| **Data Accuracy**         | Measures of data accuracy (e.g., error rates, validation checks).           | `Error rate: 2%`                     |
+| **Data Timeliness**       | How up-to-date the data is.                                                 | `Updated daily`                      |
+| **Data Quality Issues**   | Any known issues with the data quality.                                     | `Outliers in temperature readings`   |
+
+### 2. Data Privacy Form Template
+
+**Data Privacy Form**
+
+| Field Name                | Description                                                                 | Placeholder Example                  |
+|---------------------------|-----------------------------------------------------------------------------|--------------------------------------|
+| **Data Sensitivity**      | The sensitivity level of the data (e.g., public, confidential).              | `Confidential`                       |
+| **Data Anonymization**    | Techniques used to anonymize the data.                                       | `Pseudonymization, Masking`          |
+| **Data Encryption**       | Methods used to encrypt the data.                                            | `AES-256 encryption`                 |
+| **Access Controls**       | Permissions and access controls for the data.                                | `Role-based access control`          |
+| **Data Retention Policy** | How long the data is retained.                                               | `Retained for 1 year`                |
+| **Compliance Standards**  | Standards and regulations the data complies with (e.g., GDPR, HIPAA).        | `GDPR, CCPA`                         |
+| **Privacy Impact Assessment** | Assessment of the potential impact on privacy.                           | `Low, Medium, High`                  |
+
+### 3. Data Access Form Template
+
+**Data Access Form**
+
+| Field Name                | Description                                                                 | Placeholder Example                  |
+|---------------------------|-----------------------------------------------------------------------------|--------------------------------------|
+| **Data Access Roles**     | Roles that have access to the data.                                          | `Admin, Analyst, Developer`          |
+| **Access Permissions**    | Specific permissions granted to each role.                                   | `Read, Write, Execute`               |
+| **Authentication Methods**| Methods used to authenticate users.                                          | `Multi-factor authentication`        |
+| **Access Logging**        | Whether access to the data is logged.                                        | `Access logs enabled`                |
+| **Data Sharing Policies** | Policies for sharing data with external parties.                             | `Data sharing agreements required`   |
+| **Access Review Frequency** | How often access permissions are reviewed.                                 | `Quarterly`                          |
+| **Incident Response Plan** | Plan for responding to unauthorized access incidents.                       | `Incident response team notified`    |
+
+### 4. Data Integrity Form Template
+
+**Data Integrity Form**
+
+| Field Name                | Description                                                                 | Placeholder Example                  |
+|---------------------------|-----------------------------------------------------------------------------|--------------------------------------|
+| **Data Validation**       | Methods used to validate data integrity.                                     | `Checksums, Hashing`                 |
+| **Data Backup**           | Frequency and methods of data backups.                                       | `Daily backups, Cloud storage`       |
+| **Data Recovery Plan**    | Plan for recovering data in case of loss or corruption.                      | `Disaster recovery plan in place`    |
+| **Data Integrity Checks** | Regular checks to ensure data integrity.                                     | `Monthly integrity checks`           |
+| **Data Modification Logs**| Logs of any modifications made to the data.                                  | `Modification logs enabled`          |
+| **Data Integrity Issues** | Any known issues with data integrity.                                        | `None reported`                      |
+| **Audit Trails**          | Records of data access and modifications for auditing purposes.              | `Audit trails maintained`            |
